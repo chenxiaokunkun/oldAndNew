@@ -1,0 +1,34 @@
+
+/*当前暂无好友接收邀请 样式开始*/
+body{
+    background-color: #3a6ea3;/*背景色*/
+}
+
+.wuhaoyou{
+    /*人物*/
+    width: 4.85rem;/*宽*/
+    margin: .4rem 0 0 1.90rem;/*外边距*/
+    display: block;/*块级*/
+}
+
+.anniu>button{
+    width: 88%;/*宽*/
+    height: 1.2rem;/*高*/
+    background: url("../image/anniu.png") no-repeat;/*按钮底层*/
+    background-size: 100% 100%;/*按钮大小*/
+    border: none;/*取消边框*/
+}
+
+.anniu:active{
+    /*按钮 点击状态（缩放）*/
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+}
+.ljyq{
+    /*返回继续邀请 字体*/
+    color: white;/*字体颜色*/
+    font-size: .4rem;/*字体大小*/
+}
+
+
+/*当前暂无好友接收邀请 样式结束*/

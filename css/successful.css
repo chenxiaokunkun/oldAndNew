@@ -1,0 +1,154 @@
+/*已领取 样式开始*/
+body{
+    background-color: #3a6ea3;/*背景色*/
+}
+
+.manle{
+    /*已领取信封底层..头部*/
+    width: 100vw;/*宽度*/
+}
+
+.geyuedic{
+    /*2GX6个月省内流量 底层*/
+    width: 4.29rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: .44rem;/*上边距*/
+    left: 1.58rem;/*左边距*/
+}
+
+.geyueziti{
+    /*2GX6个月省内流量 字体*/
+    width: 3.07rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: .90rem;/*上边距离*/
+    left: 2.22rem;/*左边距离*/
+}
+
+.lingqushibai{
+    /*已领取*/
+    width: 1.83rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: 2.70rem;/*上边距*/
+    left: 5.45rem;/*左边距*/
+}
+
+.qianwan{
+    /*前往营业厅。。。*/
+    width: 5.42rem;/*宽*/
+    margin: 1.58rem 1.03rem 1.42rem 1.03rem;/*外边距*/
+}
+.qw_ziti{
+    /*前往营业厅提升为4G用户后 继续参与活动。。奖励*/
+    color: white;/*字体颜色*/
+    font-size: .42rem;/*字体大小*/
+}
+.qw_ziti>span{
+    /*10G流量\100元话费颜色*/
+    color: #ffc900;/*字体颜色*/
+}
+.jixu{
+    /*继续参与活动*/
+    margin: .38rem 0;/*上下边距*/
+}
+
+.anniu>button{
+    width: 88%;/*宽*/
+    height: 1.2rem;/*高*/
+    background: url("../image/anniu.png") no-repeat;/*按钮底层*/
+    background-size: 100% 100%;/*按钮大小*/
+    border: none;/*取消边框*/
+}
+
+.anniu:active{
+    /*按钮 点击状态（缩放）*/
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+}
+.ljyq {
+    /*立即更换4G套餐 字体*/
+    color: white; /*字体颜色*/
+    font-size: .4rem; /*字体大小*/
+}
+/*已领取 样式结束*/
+
+
+
+
+
+/*成功弹窗 样式开始*/
+.mohu{
+    /*模糊层*/
+    width: 100vw;/*宽度*/
+    background-color: rgba(0,0,0,.66);/*透明色*/
+    position: fixed;/*浮动定位*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cgtc_dic{
+    /*领取成功_底层*/
+    width: 6.19rem;/*宽度*/
+    height: 3.57rem;/*高度*/
+    background-color: #ece9e8;/*背景色*/
+    position: fixed;/*浮动定位*/
+    top: 2.90rem;/*上边距*/
+    left: .65rem;/*左边距*/
+}
+
+.lq{
+    /*领取成功 高度*/
+    height: 1.32rem;/*高度*/
+}
+.lq>span{
+    /*领取成功 字体*/
+    color: #313131;/*字体颜色*/
+    font-size: .36rem;/*字体大小*/
+}
+
+.rz{
+    /*流量即将入账 高度*/
+    height: 1.25rem;/*高度*/
+    font-size: 0rem;
+    flex-wrap: wrap;/*换行*/
+    display: block;/*块级*/
+    text-align: center;/*水平居中*/
+}
+.rz>span{
+    /*流量即将入账 字体*/
+    color: #313131;/*字体颜色*/
+    font-size: .32rem;/*字体大小*/
+}
+.rz>p{
+    /*将在48小时内短信通知*/
+    color: #707070;/*字体颜色*/
+    font-size: .28rem;/*字体大小*/
+    margin-top: .2rem;/*上边距*/
+}
+
+.ok{
+    /*确定 底层*/
+    height: 1rem;/*高度*/
+    background-color: #3a6ea3;/*背景色*/
+}
+.ok>span{
+    /*确定 字体*/
+    color: white;/*字体颜色*/
+    font-size: .34rem;/*字体大小*/
+}
+/*成功弹窗 样式结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

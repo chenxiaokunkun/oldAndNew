@@ -1,0 +1,61 @@
+
+
+/*loading 样式开始*/
+.sj{
+    /*邀请好友，升级4G套餐用户*/
+    width: 5.68rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: 2.52rem;/*上边距离*/
+    left: .91rem;/*左边距离*/
+}
+
+.ren{
+    /*人*/
+    width: 3.71rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: 3.64rem;/*上边距离*/
+    left: .69rem;/*左边距离*/
+}
+
+.gundongtiao{
+    /*滚动条*/
+    width: 6.33rem;/*宽度*/
+    height: .17rem;/*高度*/
+    border-radius: .1rem;/*圆角*/
+    background-color: #ece9e8;/*背景色*/
+    position: fixed;/*浮动定位*/
+    top: 6.52rem;/*上边距离*/
+    left: .74rem;/*左边距离*/
+}
+.gundongtiao>span{
+    /*loading 进度条*/
+    width: 0%;/*宽度*/
+    height: 100%;/*高度*/
+    display: block;/*块级*/
+    border-radius: .2rem;/*圆角*/
+    background-color: #51281d;/*背景色*/
+}
+
+.jpbanyunzhong{
+    /*奖品搬运中*/
+    width: 2.33rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: 7.32rem;/*上边距离*/
+    left: 2.59rem;/*左边距离*/
+}
+/*loading 样式结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

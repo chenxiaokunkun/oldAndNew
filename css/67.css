@@ -1,0 +1,64 @@
+#form{
+    padding: .5rem .28rem;/*内边距*/
+    background: saddlebrown;/*背景颜色*/
+    font-size: .28rem;/*字体大小*/
+}
+
+#form input{
+    height:.9rem;/*高*/
+    padding-left: .24rem;/*左边距*/
+    background-color: white;/*背景颜色*/
+    border-radius: .1rem;/*圆角*/
+}
+#form input:focus{
+    border:1px solid blue;
+}
+
+#phone{
+    /*请输入手机号码*/
+    width: 100%;/*宽*/
+    margin-bottom: .2rem;/*下边距*/
+}
+
+#duanxin{
+    /*请输入短信验证码*/
+    flex: 1px;
+    -webkit-flex: 1px;
+}
+
+#yazm{
+    height: .9rem;
+    border-radius: .1rem;
+    background-color: #20cd00;
+    padding: 0 0.1rem;
+    margin-left: .2rem;
+    white-space: nowrap;/*禁止换行*/
+}
+
+#yazm:active{
+    /*获取验证码*/
+    transform: scale(.98);/*点击 缩放*/
+    -webkit-transform: scale(.98);/*点击 缩放*/
+}
+
+#yazm:disabled{
+    background-color: #999;/*禁止点击背景色*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

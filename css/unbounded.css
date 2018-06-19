@@ -1,0 +1,141 @@
+
+/*未绑定 样式开始*/
+body{
+    background-color: #3a6ea3;/*背景色*/
+}
+
+.manle{
+    /*领取失败信封底层..头部*/
+    width: 100vw;/*宽度*/
+}
+
+.geyuedic{
+    /*2GX6个月省内流量 底层*/
+    width: 4.29rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: .44rem;/*上边距*/
+    left: 1.58rem;/*左边距*/
+}
+
+.anniu>button{
+    width: 88%;/*宽*/
+    height: 1.2rem;/*高*/
+    background: url("../image/anniu.png") no-repeat;/*按钮底层*/
+    background-size: 100% 100%;/*按钮大小*/
+    border: none;/*取消边框*/
+    margin-top: 5.5rem;/*上边距离*/
+}
+.anniu:active{
+    /*按钮 点击状态（缩放）*/
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+}
+.ljyq {
+    /*立即更换4G套餐 字体*/
+    color: white; /*字体颜色*/
+    font-size: .4rem; /*字体大小*/
+}
+/*未绑定 样式结束*/
+
+
+
+
+/*弹窗 样式开始*/
+.mohu{
+    /*模糊层*/
+    width: 100vw;/*宽度*/
+    background-color: rgba(0,0,0,.66);/*透明色*/
+    position: fixed;/*浮动定位*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+#form{
+    /*发起登陆*/
+    position: fixed;/*浮动定位*/
+    top: 3.4rem;/*上边距离*/
+    left: .55rem;
+    right: .55rem;
+}
+
+#denglu{
+    /*登陆后，发起邀请*/
+    position: fixed;/*浮动定位*/
+    top: 3rem;/*上边距离*/
+    left: 1.1rem;/*左边距离*/
+    color: white;/*字体颜色*/
+    font-size: .46rem;/*字体大小*/
+}
+
+#phone{
+    /*请输入11位福建移动号码*/
+    width:100%;/*宽度*/
+    height: .88rem;/*高度*/
+    font-size: .3rem;/*字体大小*/
+    padding-left: .34rem;/*内边距*/
+    margin-bottom: .2rem;/*下边距*/
+}
+
+#ma{
+    /*请输入验证码*/
+    width: 4.43rem;/*宽度*/
+    height: .88rem;/*高度*/
+    font-size: .30rem;/*字体大小*/
+    padding-left: .34rem;/*内边距*/
+}
+
+#btn{
+    /*获取验证码*/
+    width: 1.97rem;
+    height: .88rem;/*高度*/
+    color: white;/*字体颜色*/
+    font-size: .30rem;/*字体大小*/
+    padding: 0 .22rem 0 .24rem;/*内边距*/
+    background-color: #ffcc3b;/*背景颜色*/
+    margin-left: .02rem;/*左边距离*/
+}
+#btn:active{
+    /*按钮 点击状态（缩放）*/
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+}
+
+
+
+.anniu2>button{
+    width: 90%;/*宽*/
+    height: 1.2rem;/*高*/
+    background: url("../image/anniu.png") no-repeat;/*按钮底层*/
+    background-size: 100% 100%;/*按钮大小*/
+    border: none;/*取消边框*/
+    position: fixed;/*浮动定位*/
+    top: 6.43rem;/*上边距离*/
+}
+.anniu2:active{
+    /*按钮 点击状态（缩放）*/
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+}
+.ljyq2 {
+    /*立即领取 字体*/
+    color: white; /*字体颜色*/
+    font-size: .4rem; /*字体大小*/
+}
+/*弹窗 样式结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

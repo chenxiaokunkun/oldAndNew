@@ -1,0 +1,49 @@
+body{
+    background-color: #3a6ea3;/*背景颜色*/
+}
+
+/*主页2 样式开始*/
+.er_toubu{
+    /*头部背景*/
+    width: 100vw;/*宽*/
+    display: block;/*块级*/
+}
+
+.qianwan{
+    /*前往营业厅。。。*/
+    width: 5.42rem;/*宽*/
+    margin: 1.58rem 1.03rem 1.42rem 1.03rem;/*外边距*/
+}
+.qw_ziti{
+    /*前往营业厅提升为4G用户后 继续参与活动。。奖励*/
+    color: white;/*字体颜色*/
+    font-size: .42rem;/*字体大小*/
+}
+.qw_ziti>span{
+    /*10G流量\100元话费颜色*/
+    color: #ffc900;/*字体颜色*/
+}
+.jixu{
+    /*继续参与活动*/
+    margin: .38rem 0;/*上下边距*/
+}
+
+.anniu>button{
+    width: 88%;/*宽*/
+    height: 1.2rem;/*高*/
+    background: url("../image/anniu.png") no-repeat;/*按钮底层*/
+    background-size: 100% 100%;/*按钮大小*/
+    border: none;/*取消边框*/
+}
+
+.anniu:active{
+    /*按钮 点击状态（缩放）*/
+    transform: scale(.98);
+    -webkit-transform: scale(.98);
+}
+.ljyq{
+    /*立即更换4G套餐 字体*/
+    color: white;/*字体颜色*/
+    font-size: .4rem;/*字体大小*/
+}
+/*主页2 样式结束*/
