@@ -1,6 +1,5 @@
 1、index 主页一
 a）、activity 活动规则
-b）、de_fa    登陆后 发送邀请
 
 2、Home2 抱歉您不是4G用户 不符合活动参与条件
 3、getTwo 您已被邀请 活动期间只能领一份4G流量
@@ -12,4 +11,5 @@ b）、de_fa    登陆后 发送邀请
    领取失败/弹窗
 9、unbounded 未绑定（请输入您要领取的手机号）
 10、withoutAFriend 当前暂无好友接收邀请
+11、landing 登录后，发起邀请
 
