@@ -32,6 +32,15 @@ body{
     left: 5.45rem;/*左边距*/
 }
 
+.clingqushibai{
+    /*领取失败*/
+    width: 1.83rem;/*宽度*/
+    position: fixed;/*浮动定位*/
+    top: 2.70rem;/*上边距*/
+    left: 5.45rem;/*左边距*/
+    display: none;
+}
+
 .qianwan{
     /*前往营业厅。。。*/
     width: 5.42rem;/*宽*/
@@ -51,7 +60,7 @@ body{
     margin: .38rem 0;/*上下边距*/
 }
 
-.anniu>button{
+.danniu>button{
     width: 88%;/*宽*/
     height: 1.2rem;/*高*/
     background: url("../image/anniu.png") no-repeat;/*按钮底层*/
@@ -59,7 +68,7 @@ body{
     border: none;/*取消边框*/
 }
 
-.anniu:active{
+.danniu:active{
     /*按钮 点击状态（缩放）*/
     transform: scale(.98);
     -webkit-transform: scale(.98);
@@ -71,73 +80,6 @@ body{
 }
 /*已领取 样式结束*/
 
-
-
-
-
-/*成功弹窗 样式开始*/
-.mohu{
-    /*模糊层*/
-    width: 100vw;/*宽度*/
-    background-color: rgba(0,0,0,.66);/*透明色*/
-    position: fixed;/*浮动定位*/
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.cgtc_dic{
-    /*领取成功_底层*/
-    width: 6.19rem;/*宽度*/
-    height: 3.57rem;/*高度*/
-    background-color: #ece9e8;/*背景色*/
-    position: fixed;/*浮动定位*/
-    top: 2.90rem;/*上边距*/
-    left: .65rem;/*左边距*/
-}
-
-.lq{
-    /*领取成功 高度*/
-    height: 1.32rem;/*高度*/
-}
-.lq>span{
-    /*领取成功 字体*/
-    color: #313131;/*字体颜色*/
-    font-size: .36rem;/*字体大小*/
-}
-
-.rz{
-    /*流量即将入账 高度*/
-    height: 1.25rem;/*高度*/
-    font-size: 0rem;
-    flex-wrap: wrap;/*换行*/
-    display: block;/*块级*/
-    text-align: center;/*水平居中*/
-}
-.rz>span{
-    /*流量即将入账 字体*/
-    color: #313131;/*字体颜色*/
-    font-size: .32rem;/*字体大小*/
-}
-.rz>p{
-    /*将在48小时内短信通知*/
-    color: #707070;/*字体颜色*/
-    font-size: .28rem;/*字体大小*/
-    margin-top: .2rem;/*上边距*/
-}
-
-.ok{
-    /*确定 底层*/
-    height: 1rem;/*高度*/
-    background-color: #3a6ea3;/*背景色*/
-}
-.ok>span{
-    /*确定 字体*/
-    color: white;/*字体颜色*/
-    font-size: .34rem;/*字体大小*/
-}
-/*成功弹窗 样式结束*/
 
 
 

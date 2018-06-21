@@ -28,7 +28,7 @@ body{
     margin: .38rem 0;/*上下边距*/
 }
 
-.anniu>button{
+.manniu>button{
     width: 88%;/*宽*/
     height: 1.2rem;/*高*/
     background: url("../image/anniu.png") no-repeat;/*按钮底层*/
@@ -36,7 +36,7 @@ body{
     border: none;/*取消边框*/
 }
 
-.anniu:active{
+.manniu:active{
     /*按钮 点击状态（缩放）*/
     transform: scale(.98);
     -webkit-transform: scale(.98);
