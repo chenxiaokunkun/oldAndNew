@@ -58,7 +58,7 @@ body{
 }
 
 
-#form{
+#form2{
     /*发起登陆*/
     position: fixed;/*浮动定位*/
     top: 3.4rem;/*上边距离*/
@@ -133,7 +133,7 @@ body{
     background: url("../image/hui_anniu.png") no-repeat;/*按钮底层*/
     background-size: 100% 100%;/*按钮大小*/
     border: none;/*取消边框*/
-    margin-top:4rem ;/*上边距*/
+    margin-top:.95rem ;/*上边距*/
 }
 
 .ljyq2 {
