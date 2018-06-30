@@ -101,6 +101,7 @@ body{
     padding: 0 .22rem 0 .24rem;/*内边距*/
     background-color: #ffcc3b;/*背景颜色*/
     margin-left: .02rem;/*左边距离*/
+    white-space: pre-wrap;/*禁止换行*/
 }
 #btn:active{
     /*按钮 点击状态（缩放）*/
@@ -120,12 +121,8 @@ body{
     border: none;/*取消边框*/
     position: fixed;/*浮动定位*/
     top:6.5rem;/*上边距离*/
+    margin-left: .4rem;
 }
-/*.uanniu2:active{*/
-    /*/!*按钮 点击状态（缩放）*!/*/
-    /*transform: scale(.98);*/
-    /*-webkit-transform: scale(.98);*/
-/*}*/
 .uanniu2>button:disabled{
     /*禁止按钮点击事件*/
     width: 88%;/*宽*/
@@ -133,7 +130,7 @@ body{
     background: url("../image/hui_anniu.png") no-repeat;/*按钮底层*/
     background-size: 100% 100%;/*按钮大小*/
     border: none;/*取消边框*/
-    margin-top:.5rem ;/*上边距*/
+    margin:.5rem 0 0 .4rem ;/*上边距*/
 }
 
 .ljyq2 {
